@@ -7,6 +7,10 @@
     <!-- <link href="/Projeto/app/Http/Controllers/EventController.php"> -->
 </head>
 <body>
+    <h1>Digite: </h1>
+    <ul>
+        <li>"m" ou "f" para gênero</li>
+    </ul>
     <h1>Dados de pessoas</h1>
     <a href="/">Voltar para a tela principal</a>
     <h2>Dados do usuário:</h2>

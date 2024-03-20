@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class EventController extends Controller
 {
-    public function BemVindo($nome, $sobrenome=null){
+    public function BemVindo(string $nome, string $sobrenome=null){
 
         return view('ola')->with('nome', $nome)->with('sobrenome', $sobrenome);
 

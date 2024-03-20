@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Digite:</h1>
+    <ul>
+        <li>"soma" para soma</li>
+        <li>"subtracao" para subtração</li>
+        <li>"multiplicacao" para multiplicação</li>
+        <li>"divisao" para divisão</li>
+    </ul>
     <h1>O resultado de sua operação é: </h1>
         @php
             $soma = $number1 + $number2;
