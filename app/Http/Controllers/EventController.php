@@ -24,4 +24,7 @@ class EventController extends Controller
         return view('dados-pessoas', ['nome'=>$nome, 'sobrenome'=>$sobrenome, 'idade'=>$idade, 'rm'=>$rm, 'genero'=>$genero, 'endereco'=>$endereco]);
 
     }
+    public function Produtos(){
+
+    }
 }
