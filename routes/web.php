@@ -24,8 +24,6 @@ Route::get('/operadores/{number1}/{number2}/{operador}', [EventController::class
 
 Route::get('/dados-pessoas/{nome}/{sobrenome}/{idade}/{rm}/{genero}/{endereco}', [EventController::class, 'Dados'])->where(['nome' => '[A-Za-z]+', 'sobrenome' => '[A-Za-z]+', 'idade'=> '[0-9]+', 'rm'=> '[0-9]+', 'genero'=> '[f,m]' ]);
 
-Route::get('/produtos', function(){
-
-});
+Route::get('/produtos/{descricao}/{categoria}/{preco}', [EventController::class, 'Produtos'])->where(['descricao' => '[A-Za-z, ]+', 'categoria' => '[A-Za-z]+', 'preco' => '[0-9]+']);
 
 
